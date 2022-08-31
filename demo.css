@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:montserrat;
+    box-sizing:border-box; 
+}
+
+    body{
+        min-height: 100hv;
+    }
+
+    .login-form{
+        width:360px;
+        height:580px;
+        padding:80px 40px;
+        border-radius :10px;
+        position:absolute;
+        left:30%;
+        top:10%;
+        transform:translate(-50% -50%);
+    }
+
+    .login-form h1{
+        text-align:center;
+        margin-bottom: 60px;
+    }
+
+    .input_box input{
+        font-size:15px;
+        width:100;
+        box-sizing:border-box; 
+        padding:12px 20px;
+        height:30px;
+        margin:8px 0;
+    }
+    
+    .input_box .icon{
+        position:absolute;
+        top:50%;
+        left:20px;
+        transform:translateY(-50%);
+        color:grey;
+    }
+    .option_div .check_box{
+        display: flex;
+        align-items: center;
+    }
+input[type=text]:focus, input[type=password]:focus{
+    border:2px solid#333;
+    transition: 0.6a;
+}
+    .button input{
+        background-color:black;
+color:white;
+padding:10px;
+font-size: large;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+text-align: center;
+width: 80%;
+cursor: pointer;
+transition: all 0.3s linear;
+height: 40px;
+
+    }
+.button input{
+    border-radius: 12px;
+}
+.bottom-text{
+    margin-top:10px;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.txta{
+    text-align: center;
+    margin-top: 20px;
+    padding:20px;
+    font-size:100px;
+    font-family: strong;
+    color: #000;
+}
+
+
+
+    
+    
+    
+    
+
+
+
+
+
+
+
